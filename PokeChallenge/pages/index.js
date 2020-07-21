@@ -28,7 +28,7 @@ function Home() {
       </div>
     );
   return (
-    <>
+    <div className="scroll">
       <Head>
         <meta
           httpEquiv="content-language"
@@ -80,7 +80,7 @@ function Home() {
           <Col span={3}></Col>
         </Row>
       </>
-    </>
+    </div>
   );
 }
 
